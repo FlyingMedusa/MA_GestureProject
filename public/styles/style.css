@@ -28,6 +28,10 @@ hr {
   margin: 13 auto 30;
 }
 
+strong {
+  color: #0dcaf0;
+}
+
 /* Sections */
 
 .dark-section-title {
