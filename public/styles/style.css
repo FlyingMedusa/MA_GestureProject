@@ -6,9 +6,13 @@ body {
 
 article {
   flex: 1;
-  background-color: rgb(255, 222, 178);
-  padding: 2% 15% 2%;
+  background-color: #000000;
+  padding: 5% 15% 1.5%;
   text-align: center;
+  border: 0.2px #111418f7;
+  box-shadow: inset 0px 15px 8px -10px #111418f7,
+    inset 0px -15px 8px -10px #111418f7;
+  color: #99b8d7;
 }
 
 h1,
@@ -17,10 +21,21 @@ h2 {
   font-weight: 900;
 }
 
+hr {
+  border-top: 5px dotted red;
+  opacity: 1;
+  width: 7%;
+  margin: 13 auto 30;
+}
+
 /* Sections */
 
-.dark-section {
-  background-color: #dc7a12;
+.dark-section-title {
+  background-color: #000000;
+  background-image: url("../images/interpreter.jpg");
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   color: #ffffff;
 }
 
@@ -28,19 +43,19 @@ h2 {
 
 .container-fluid {
   padding: 3% 5% 7%;
+  border: 0.2px #111418f7;
+  box-shadow: inset 0px -20px 8px -10px #111418f7;
 }
 
-/* Navigation Bar */
-
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 3.5rem;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 3rem;
+  font-size: 1 rem;
   font-weight: bold;
-  color: rgb(255, 222, 178);
+  color: #fe0045;
 }
 
 .nav-item {
@@ -48,9 +63,10 @@ h2 {
 }
 
 .nav-link {
-  font-style: 1.2 rem;
+  font-style: 0.4 rem;
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 500;
+  color: #dfdfdf;
 }
 
 /* Footer */
@@ -58,10 +74,13 @@ h2 {
 #footer {
   padding: 2% 5% 2%;
   text-align: center;
+  background-color: #12161a;
+  box-shadow: inset 0px 25px 8px -10px #111418f7;
 }
 
 #footer p {
-  color: rgb(255, 222, 178);
+  color: #0dcaf0;
+  font-size: 13;
 }
 
 /* Buttons */
@@ -69,4 +88,9 @@ h2 {
 .btn {
   font-size: 4rem;
   margin: 3% 2%;
+}
+
+.btn-outline-danger {
+  --bs-btn-hover-color: #000000;
+  --bs-btn-disabled-bg: #000000;
 }
