@@ -38,9 +38,16 @@ strong {
   background-color: #000000;
   background-image: url("../images/interpreter.jpg");
   background-position: center top;
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   color: #ffffff;
+}
+
+@media screen and (max-width: 896px) {
+  .dark-section-title {
+    background-position: right top;
+    background-size: auto 100%;
+  }
 }
 
 /* Title section */
@@ -49,6 +56,7 @@ strong {
   padding: 3% 5% 7%;
   border: 0.2px #111418f7;
   box-shadow: inset 0px -20px 8px -10px #111418f7;
+  height: 100vh;
 }
 
 .navbar {
