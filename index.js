@@ -1,4 +1,5 @@
 const express = require("express");
+const cookieParser = require("cookie-parser");
 const hbs = require("express-handlebars");
 const path = require("path");
 const { homeRouter } = require("./routes/home");
@@ -10,6 +11,7 @@ const { referencesRouter } = require("./routes/references");
 const app = express();
 
 app.use(express.static("public"));
+app.use(cookieParser());
 // app.use(express.urlencoded({
 //     extended: true,
 // }));
