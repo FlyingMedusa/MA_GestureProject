@@ -81,6 +81,12 @@ strong {
   color: #dfdfdf;
 }
 
+/* Article - Content */
+
+.main-content {
+  min-height: 65vh;
+}
+
 /* Footer */
 
 #footer {
