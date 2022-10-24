@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -103,7 +107,11 @@ strong {
 
 /* Buttons */
 
-.btn {
+.scroll-button {
+  margin: 15% 3% 5% 0;
+}
+
+.choice-button {
   font-size: 4rem;
   margin: 3% 2%;
 }
@@ -111,4 +119,10 @@ strong {
 .btn-outline-danger {
   --bs-btn-hover-color: #000000;
   --bs-btn-disabled-bg: #000000;
+}
+
+/* scrolling */
+
+body::-webkit-scrollbar {
+  display: none;
 }
