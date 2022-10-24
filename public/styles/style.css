@@ -26,7 +26,7 @@ h2 {
 }
 
 hr {
-  border-top: 5px dotted red;
+  border-top: 5px dotted #ff1818;
   opacity: 1;
   width: 7%;
   margin: 13 auto 30;
@@ -39,12 +39,12 @@ strong {
 /* Sections */
 
 .dark-section-title {
-  background-color: #000000;
-  background-image: url("../images/interpreter.jpg");
+  background-color: #fdda42;
+  background-image: url("../images/kevin2.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  color: #ffffff;
+  color: #293462;
 }
 
 @media screen and (max-width: 896px) {
@@ -57,7 +57,7 @@ strong {
 /* Title section */
 
 .container-fluid {
-  padding: 3% 5% 7%;
+  padding: 1% 5% 7%;
   border: 0.2px #111418f7;
   box-shadow: inset 0px -20px 8px -10px #111418f7;
   height: 100vh;
@@ -71,7 +71,7 @@ strong {
   font-family: "Ubuntu";
   font-size: 1 rem;
   font-weight: bold;
-  color: #fe0045;
+  color: #d61c4e;
 }
 
 .nav-item {
@@ -82,7 +82,7 @@ strong {
   font-style: 0.4 rem;
   font-family: "Montserrat";
   font-weight: 500;
-  color: #dfdfdf;
+  color: #293462;
 }
 
 /* Article - Content */
