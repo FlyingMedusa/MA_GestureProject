@@ -8,8 +8,11 @@ choiceRouter.get("/:opinion", (req, res) => {
       errorType: `418`,
       description: `Sorry, a choice named "${opinion}" was never an option.`,
     });
+  } else if (opinion == "yes") {
+    res.render("home/choice", { positive: 1 });
+  } else if (opinion == "no") {
+    res.render("home/choice", { positive: 0 });
   }
-  res.render("home/choice");
 });
 
 module.exports = {
