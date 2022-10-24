@@ -8,17 +8,6 @@ body {
   flex-direction: column;
 }
 
-article {
-  flex: 1;
-  background-color: #000000;
-  padding: 5% 15% 1.5%;
-  text-align: center;
-  border: 0.2px #111418f7;
-  box-shadow: inset 0px 15px 8px -10px #111418f7,
-    inset 0px -15px 8px -10px #111418f7;
-  color: #99b8d7;
-}
-
 h1,
 h2 {
   font-family: "Montserrat";
@@ -58,8 +47,6 @@ strong {
 
 .container-fluid {
   padding: 1% 5% 7%;
-  border: 0.2px #111418f7;
-  box-shadow: inset 0px -20px 8px -10px #111418f7;
   height: 100vh;
 }
 
@@ -87,6 +74,13 @@ strong {
 
 /* Article - Content */
 
+article {
+  flex: 1;
+  background-color: #ececec;
+  padding: 5% 5% 1.5%;
+  color: #293462;
+}
+
 .main-content {
   min-height: 65vh;
 }
@@ -96,12 +90,11 @@ strong {
 #footer {
   padding: 2% 5% 2%;
   text-align: center;
-  background-color: #12161a;
-  box-shadow: inset 0px 25px 8px -10px #111418f7;
+  background-color: #ffc200;
 }
 
 #footer p {
-  color: #0dcaf0;
+  color: #293462;
   font-size: 13;
 }
 
@@ -113,16 +106,21 @@ strong {
 
 .choice-button {
   font-size: 4rem;
-  margin: 3% 2%;
-}
-
-.btn-outline-danger {
-  --bs-btn-hover-color: #000000;
-  --bs-btn-disabled-bg: #000000;
+  margin: 3% 1%;
+  --bs-btn-hover-color: #293462;
+  --bs-btn-disabled-bg: #293462;
+  width: 30%;
 }
 
 /* scrolling */
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+/* choice page */
+
+.card {
+  margin-right: 3%;
+  margin-left: auto;
 }
